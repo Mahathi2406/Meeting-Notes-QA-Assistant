@@ -1,0 +1,120 @@
+﻿Meeting_ID,Meeting_Date,Meeting_Title,Participants,Transcript,Meeting_Summary
+M01,2026-08-03,Project kickoff,Asha (Project Manager); Rahul (Backend Lead); Meera (Frontend Lead); Karan (QA Lead); Neha (Data Lead),"Asha: Welcome to the NovaCRM rollout kickoff. Our target pilot launch remains 30 September 2026.
+Rahul: Backend will own customer-profile and authentication APIs.
+Meera: Frontend will own the advisor dashboard.
+Neha: My team will handle migration of legacy customer records.
+Karan: QA will prepare the end-to-end test plan.
+Asha: First milestone is API contract freeze by 12 August. Rahul owns that. The first migration dry run is planned for 24 August, owned by Neha.
+Karan: I need stable API contracts before finalising regression cases.
+Asha: Main early risk is dependency on the vendor SSO sandbox, which is not yet available.",Pilot target set; initial owners and milestones agreed.
+M02,2026-08-07,Requirements review,Asha; Rahul; Meera; Karan; Priya (Compliance),"Meera: The dashboard needs customer search, portfolio summary, service requests and interaction history.
+Priya: Interaction history must mask PAN and account numbers for non-authorised roles.
+Rahul: I can expose role-based masking from the API.
+Asha: Decision: role-based masking will be enforced server-side, not only in the UI.
+Priya: Compliance sign-off on masking rules is needed by 18 August.
+Asha: Priya will provide the final masking matrix by 14 August so Rahul can implement it.
+Karan: I will add masking checks to the security test cases.",Server-side masking decision; compliance matrix due 14 Aug.
+M03,2026-08-12,API contract freeze,Asha; Rahul; Meera; Karan,"Rahul: The customer-profile, authentication and interaction APIs are documented.
+Meera: Frontend reviewed them. We need one field renamed from cust_id to customer_id.
+Rahul: Agreed. I will update the spec today.
+Asha: Are we freezing the contract?
+Meera: Yes from frontend.
+Karan: Yes for QA.
+Asha: Decision recorded: API contract is frozen today, 12 August. Rahul remains owner of any backward-compatible corrections.
+Rahul: The SSO sandbox is still pending from the vendor.",API contract frozen on schedule; SSO remains a blocker.
+M04,2026-08-17,SSO integration,Asha; Rahul; Vendor team; Karan,"Vendor: The SSO sandbox is now available.
+Rahul: Good. I will start integration today.
+Karan: When can QA test login?
+Rahul: I can provide a QA-ready build by 21 August.
+Asha: Rahul owns SSO integration. Karan will run login and session-expiry tests after the build is deployed.
+Vendor: Production certificates require a separate request.
+Asha: I will submit the production certificate request by 19 August.
+Karan: Risk noted: if production certificates are delayed, pilot login could be affected.",SSO sandbox received; QA-ready build due 21 Aug.
+M05,2026-08-20,Compliance and security,Asha; Priya; Rahul; Karan,"Priya: The masking matrix was delivered on 14 August as planned.
+Rahul: Server-side masking is implemented for PAN and account number.
+Karan: Security test execution starts tomorrow.
+Priya: One more requirement: exported CSV files must also mask sensitive fields.
+Rahul: Export currently uses a separate service. I will patch that by 25 August.
+Asha: Owner is Rahul, deadline 25 August.
+Priya: Compliance sign-off is moved from 18 August to 27 August because we added the CSV export control.
+Asha: Record the revised sign-off date as 27 August.",CSV export masking added; compliance sign-off revised to 27 Aug.
+M06,2026-08-24,Migration dry run 1,Asha; Neha; Rahul; Karan,"Neha: Dry run one completed with 98.7% records migrated successfully.
+Asha: What failed?
+Neha: 1.3% failed because legacy phone numbers contain invalid characters and some customer IDs are duplicated.
+Rahul: Duplicate IDs will affect API lookups too.
+Neha: I will clean the invalid phone-number records by 26 August. Data Governance, not my team, must resolve duplicated customer IDs.
+Asha: Who is coordinating with Data Governance?
+Neha: I will coordinate, but Data Governance owns the actual duplicate-ID correction.
+Asha: Next dry run is 31 August.
+Karan: Migration defects are a medium risk until success rate exceeds 99.5%.",Dry run achieved 98.7%; duplicate IDs are an external dependency.
+M07,2026-08-27,Compliance sign-off,Asha; Priya; Rahul; Karan,"Rahul: CSV export masking patch was completed on 25 August.
+Karan: Security tests passed for UI, APIs and exported files.
+Priya: I reviewed the evidence. Compliance approves the masking implementation.
+Asha: So compliance sign-off is complete today, 27 August.
+Priya: Correct.
+Karan: One low-severity finding remains: session timeout warning text is unclear.
+Asha: Meera will update the warning text by 1 September. This does not block compliance approval.",Compliance sign-off complete; low-severity UI text issue remains.
+M08,2026-08-31,Migration dry run 2,Asha; Neha; Data Governance; Karan,"Neha: Second dry run completed at 99.72% success.
+Data Governance: Duplicate customer IDs have been corrected.
+Neha: Remaining failures are mostly records with missing mandatory email fields.
+Asha: Is 99.72% sufficient for pilot?
+Karan: From QA, yes if the failed records are quarantined and reported.
+Neha: I will create a quarantine report and exclude those records from pilot migration.
+Asha: Decision: proceed with pilot migration approach using quarantine for invalid records. Neha owns the quarantine report due 3 September.
+Data Governance: We will continue cleansing the source system separately.",Migration threshold achieved; quarantine approach approved.
+M09,2026-09-03,End-to-end testing start,Asha; Meera; Rahul; Karan; Neha,"Karan: End-to-end testing starts today. We have 84 scenarios.
+Meera: Advisor dashboard build is feature complete.
+Rahul: Backend APIs are in the staging environment.
+Neha: Quarantine report was delivered this morning.
+Karan: Initial smoke test found a defect: interaction history sometimes shows duplicate entries after refresh.
+Rahul: That sounds backend-related. I will investigate.
+Asha: Rahul owns defect DEF-17. Target fix is 7 September.
+Karan: Until fixed, interaction-history regression is blocked.",E2E testing started; DEF-17 assigned to Rahul for 7 Sep.
+M10,2026-09-07,Defect triage,Asha; Rahul; Meera; Karan,"Rahul: DEF-17 was caused by retry logic and is fixed in staging today.
+Karan: We retested and duplicate interaction entries no longer appear.
+Meera: I have completed the session-timeout warning text change.
+Karan: We have three medium defects remaining, none in login, masking or migration.
+Asha: What is the regression completion target?
+Karan: Full regression will complete by 14 September, owned by QA.
+Asha: Good. Rahul's DEF-17 is closed.",DEF-17 closed; regression target 14 Sep.
+M11,2026-09-11,Pilot readiness review,Asha; Rahul; Meera; Karan; Neha; Priya,"Karan: Regression is 76% complete and currently on track for 14 September.
+Neha: Final pilot migration rehearsal is complete at 99.81%.
+Priya: No open compliance blockers.
+Meera: Frontend is ready.
+Rahul: Backend is ready, but production SSO certificates have not arrived.
+Asha: I submitted the certificate request on 19 August and escalated yesterday.
+Karan: That is now the only high risk for pilot readiness.
+Asha: Contingency: if certificates are not received by 18 September, we will escalate to the vendor account director and evaluate a one-day launch shift. We are not changing the 30 September target today.",Production SSO certificate is the only high risk.
+M12,2026-09-14,Regression completion,Asha; Karan; Rahul; Meera,"Karan: Full regression is complete today as planned. 82 of 84 scenarios passed.
+Asha: What about the other two?
+Karan: Two low-severity cosmetic defects remain: column alignment and a tooltip typo.
+Meera: I will fix both by 16 September.
+Karan: They do not block pilot.
+Rahul: We also received the production SSO certificates this afternoon.
+Asha: Excellent. That closes the high-risk SSO item.
+Karan: I will run a production-certificate connectivity test on 15 September.",Regression complete; SSO risk closed after certificate receipt.
+M13,2026-09-18,Go-live readiness,Asha; Rahul; Meera; Karan; Neha; Priya,"Karan: Production-certificate connectivity test passed.
+Meera: Both cosmetic issues were fixed on 16 September.
+Neha: Pilot migration package and rollback scripts are ready.
+Priya: Compliance has no objections to pilot launch.
+Asha: Decision: we are GO for the 30 September pilot.
+Rahul: Who will monitor APIs on launch day?
+Asha: Rahul owns API monitoring; Karan owns incident validation; Neha owns migration monitoring; Meera owns UI support.
+Asha: I will coordinate the command centre.",Formal GO decision for 30 Sep pilot.
+M14,2026-09-25,Pre-launch checkpoint,Asha; Rahul; Meera; Karan; Neha,"Asha: Final checkpoint before pilot.
+Rahul: API dashboards and alerts are configured.
+Meera: UI support runbook is complete.
+Karan: Test closure report is signed.
+Neha: Migration files are frozen. We will begin pilot migration at 06:00 on 30 September.
+Asha: Any new risks?
+Karan: Only operational risk is slower response during peak support hours.
+Asha: Mitigation is a dedicated command-centre bridge from 06:00 to 18:00 on launch day.
+Rahul: No technical blockers from backend.",No technical blockers; launch-day command centre confirmed.
+M15,2026-09-30,Pilot launch review,Asha; Rahul; Meera; Karan; Neha; Priya,"Asha: The NovaCRM pilot launched this morning.
+Neha: Migration completed at 08:10 with 99.83% records loaded. Quarantined records were reported separately.
+Rahul: API availability has been 99.98% so far.
+Meera: No critical UI incidents.
+Karan: We logged four support tickets: three user-how-to questions and one low-severity display issue.
+Priya: No compliance incidents were reported.
+Asha: Decision: keep the pilot open and proceed with the planned two-week observation period.
+Asha: Karan will prepare the pilot quality report by 5 October. Rahul, Meera and Neha will provide metrics to Karan by 3 October.",Pilot launched successfully; observation period begins.
