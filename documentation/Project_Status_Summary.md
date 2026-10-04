@@ -1,5 +1,4 @@
-# NovaCRM Project Status Summary# NovaCRM Project Status Summary# NovaCRM Project Status Summary
-
+# NovaCRM Project Status Summary
 ## Overall Status
 
 **Launched & Active – Observation Phase**
