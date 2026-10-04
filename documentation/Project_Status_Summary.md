@@ -1,264 +1,92 @@
 # NovaCRM Project Status Summary
-## Overall Status
-
-**Launched & Active – Observation Phase**
-
-The NovaCRM pilot was launched on **30 September 2026** and is currently in the planned two-week observation phase.
-
-## Completed Activities
-
-- API contract was frozen successfully.
-- Server-side role-based masking was implemented.
-- CSV export masking controls were added.
-- Compliance sign-off was completed after the revised deadline.
-- Migration dry runs were completed.
-- Migration quarantine strategy was approved for invalid records.
-- DEF-17 was resolved.
-- Regression testing was completed.
-- Production SSO certificates were received and connectivity was verified.
-- Launch readiness activities were completed.
-- Pilot launch was approved.
-
-## Work in Progress
-
-- Monitoring the live pilot during the observation period.
-- Source-system data cleansing by the Data Governance team.
-
-## Pending Activities
-
-| Activity | Owner | Due Date |
-|---|---|---|
-| Provide functional metrics | Rahul / Meera / Neha | 3 October 2026 |
-| Final pilot quality report | Karan | 5 October 2026 |
-
-## Key Project Decisions
-
-1. Role-based masking would be enforced server-side.
-2. CSV exports would also follow masking controls.
-3. The API contract was frozen.
-4. Compliance sign-off was formally moved from 18 August to 27 August 2026 because of the additional CSV export control requirement.
-5. Invalid migration records would be handled through a quarantine strategy.
-6. The project received a GO decision for the 30 September pilot.
-7. A launch-day command center was established.
-8. The pilot would remain under observation for two weeks.
-
-## Key Risks and Resolutions
-
-### SSO Sandbox Delay
-The vendor SSO sandbox delay was monitored and resolved.
-
-### Migration Data Issues
-Invalid legacy phone numbers and duplicate customer IDs were identified during migration testing. The quarantine strategy was approved for invalid records.
-
-### DEF-17
-Duplicate interaction-history entries after refresh were traced to backend retry logic and resolved.
-
-### Production SSO Certificates
-Production SSO certificates were delayed but received on 14 September 2026. Connectivity testing subsequently passed.
-
-### Launch-Day Support
-Four support tickets were received after launch. Three were how-to queries and one was a low-severity display issue.
-
-## Launch Results
-
-The pilot launch on **30 September 2026** produced the following results:
-
-- Migration started at **06:00**.
-- Migration completed at **08:10**.
-- **99.83%** of records were successfully loaded.
-- API availability was **99.98%**.
-- No critical UI or compliance incidents were reported.
-- Four support tickets were recorded.
-- The pilot remained active for the planned two-week observation period.
-
-## Project Owners
-
-| Area | Owner |
-|---|---|
-| Project coordination | Asha |
-| Backend / API / SSO | Rahul |
-| Frontend | Meera |
-| Data migration | Neha |
-| Quality assurance | Karan |
-| Compliance | Priya |
-| Data corrections | Data Governance |
-
-## Conclusion
-
-The NovaCRM project successfully progressed from requirements and development through testing and pilot launch. The project is currently active in its observation phase, with functional metrics and the final pilot quality report remaining as the major documented follow-up activities.
 
 ## Overall Status
 
-**Launched & Active – Observation Phase**
+**In Progress – Review and Follow-up Phase**
 
-The NovaCRM pilot was launched on **30 September 2026** and is currently in the planned two-week observation phase.
+The project is being tracked across 15 fictional project meetings (MTG001–MTG015) covering April–July 2025. The meetings focus on decisions, risks, budgets, vendor issues, testing, training, approvals, and follow-up actions.
 
-## Completed Activities
+## Key Progress
 
-- API contract was frozen successfully.
-- Server-side role-based masking was implemented.
-- CSV export masking controls were added.
-- Compliance sign-off was completed after the revised deadline.
-- Migration dry runs were completed.
-- Migration quarantine strategy was approved for invalid records.
-- DEF-17 was resolved.
-- Regression testing was completed.
-- Production SSO certificates were received and connectivity was verified.
-- Launch readiness activities were completed.
-- Pilot launch was approved.
+- Multiple project decisions were recorded across the meetings, including selection of Option A or Option B followed by review in the following week.
+- Vendor consolidation and vendor quote comparisons were discussed, with cost savings weighed against delivery speed.
+- Testing delays were repeatedly monitored, including delays caused by vendor samples.
+- Training progress and training-schedule issues were tracked through assigned action items.
+- Budget utilization increased across the meetings, with additional funding requirements discussed.
+- Legal, finance, and regulatory approvals remained important dependencies.
+- Customer migration and implementation activities were reviewed through the later meetings.
+- The final meeting (MTG015) reported mostly positive pilot feedback, with 7 issues logged.
 
-## Work in Progress
+## Important Risks and Issues
 
-- Monitoring the live pilot during the observation period.
-- Source-system data cleansing by the Data Governance team.
+- Vendor/sample delivery delays
+- Testing and implementation delays
+- Budget utilization and possible additional funding requirements
+- Pending legal and finance approvals
+- Regulatory approval dependencies
+- Training-material and training-schedule bottlenecks
+- IT bandwidth and go-live schedule risks
+- Customer/pilot issues requiring follow-up
 
-## Pending Activities
+## Key Action Tracking
 
-| Activity | Owner | Due Date |
-|---|---|---|
-| Provide functional metrics | Rahul / Meera / Neha | 3 October 2026 |
-| Final pilot quality report | Karan | 5 October 2026 |
+The meetings contain multiple assigned actions such as:
 
-## Key Project Decisions
+- Drafting notes for leadership
+- Calling vendors
+- Updating project trackers
+- Obtaining finance approval
+- Fixing training schedules
+- Sharing revised plans
+- Following up on testing and implementation issues
 
-1. Role-based masking would be enforced server-side.
-2. CSV exports would also follow masking controls.
-3. The API contract was frozen.
-4. Compliance sign-off was formally moved from 18 August to 27 August 2026 because of the additional CSV export control requirement.
-5. Invalid migration records would be handled through a quarantine strategy.
-6. The project received a GO decision for the 30 September pilot.
-7. A launch-day command center was established.
-8. The pilot would remain under observation for two weeks.
+Each action was reviewed against the meeting transcript to verify the stated owner and deadline.
 
-## Key Risks and Resolutions
+## Final Meeting – MTG015
 
-### SSO Sandbox Delay
-The vendor SSO sandbox delay was monitored and resolved.
+The final meeting reported:
 
-### Migration Data Issues
-Invalid legacy phone numbers and duplicate customer IDs were identified during migration testing. The quarantine strategy was approved for invalid records.
+- The team selected **Option B** and planned to review again the following week.
+- Pilot feedback was mostly positive.
+- **7 issues** were logged.
+- English training material was ready, while Marathi and Hindi versions were still pending.
+- Budget utilization reached **96%**, with a potential requirement for an additional **Rs 3 lakh**.
+- Legal sign-off on contract changes remained pending.
+- The primary risk identified was an upcoming festive-demand spike.
+- **Zoya Verma** was assigned to call the vendor by Friday.
+- **Diya Singh** was assigned to share the revised plan by Friday.
+- The project was planned for another review the following week.
 
-### DEF-17
-Duplicate interaction-history entries after refresh were traced to backend retry logic and resolved.
+## Owner and Date Verification
 
-### Production SSO Certificates
-Production SSO certificates were delayed but received on 14 September 2026. Connectivity testing subsequently passed.
+The 15 AI-use interactions were reviewed against the supplied meeting transcripts.
 
-### Launch-Day Support
-Four support tickets were received after launch. Three were how-to queries and one was a low-severity display issue.
+**Result: No confirmed wrong owner or wrong date was identified.**
 
-## Launch Results
+Some meetings contain similar or repeated actions assigned to different people. These were treated as parallel or duplicate assignments only when the transcript itself explicitly contained them, rather than being classified as AI errors.
 
-The pilot launch on **30 September 2026** produced the following results:
+## Business Insight
 
-- Migration started at **06:00**.
-- Migration completed at **08:10**.
-- **99.83%** of records were successfully loaded.
-- API availability was **99.98%**.
-- No critical UI or compliance incidents were reported.
-- Four support tickets were recorded.
-- The pilot remained active for the planned two-week observation period.
+The meeting set shows recurring operational themes:
 
-## Project Owners
+- Vendor dependencies can affect testing and delivery schedules.
+- Increasing budget utilization requires continuous financial monitoring.
+- Approval dependencies can delay implementation.
+- Training readiness is an important part of project execution.
+- Clear ownership and deadlines make follow-up easier.
 
-| Area | Owner |
-|---|---|
-| Project coordination | Asha |
-| Backend / API / SSO | Rahul |
-| Frontend | Meera |
-| Data migration | Neha |
-| Quality assurance | Karan |
-| Compliance | Priya |
-| Data corrections | Data Governance |
+## Recommendation
 
-## Conclusion
+Maintain a centralized project-action tracker containing:
 
-The NovaCRM project successfully progressed from requirements and development through testing and pilot launch. The project is currently active in its observation phase, with functional metrics and the final pilot quality report remaining as the major documented follow-up activities.
+**Meeting ID | Action | Owner | Deadline | Risk/Issue | Decision | Status | Evidence**
 
-## Overall Status
+Project managers should review unresolved actions regularly, especially vendor dependencies, approvals, budget risks, testing delays, and training-related issues.
 
-**Launched & Active – Observation Phase**
+## Responsible AI and Limitations
 
-The NovaCRM pilot was launched on **30 September 2026** and is currently in the planned two-week observation phase.
-
-## Completed Activities
-
-- API contract was frozen successfully.
-- Server-side role-based masking was implemented.
-- CSV export masking controls were added.
-- Compliance sign-off was completed after the revised deadline.
-- Migration dry runs were completed.
-- Migration quarantine strategy was approved for invalid records.
-- DEF-17 was resolved.
-- Regression testing was completed.
-- Production SSO certificates were received and connectivity was verified.
-- Launch readiness activities were completed.
-- Pilot launch was approved.
-
-## Work in Progress
-
-- Monitoring the live pilot during the observation period.
-- Source-system data cleansing by the Data Governance team.
-
-## Pending Activities
-
-| Activity | Owner | Due Date |
-|---|---|---|
-| Provide functional metrics | Rahul / Meera / Neha | 3 October 2026 |
-| Final pilot quality report | Karan | 5 October 2026 |
-
-## Key Project Decisions
-
-1. Role-based masking would be enforced server-side.
-2. CSV exports would also follow masking controls.
-3. The API contract was frozen.
-4. Compliance sign-off was formally moved from 18 August to 27 August 2026 because of the additional CSV export control requirement.
-5. Invalid migration records would be handled through a quarantine strategy.
-6. The project received a GO decision for the 30 September pilot.
-7. A launch-day command center was established.
-8. The pilot would remain under observation for two weeks.
-
-## Key Risks and Resolutions
-
-### SSO Sandbox Delay
-The vendor SSO sandbox delay was monitored and resolved.
-
-### Migration Data Issues
-Invalid legacy phone numbers and duplicate customer IDs were identified during migration testing. The quarantine strategy was approved for invalid records.
-
-### DEF-17
-Duplicate interaction-history entries after refresh were traced to backend retry logic and resolved.
-
-### Production SSO Certificates
-Production SSO certificates were delayed but received on 14 September 2026. Connectivity testing subsequently passed.
-
-### Launch-Day Support
-Four support tickets were received after launch. Three were how-to queries and one was a low-severity display issue.
-
-## Launch Results
-
-The pilot launch on **30 September 2026** produced the following results:
-
-- Migration started at **06:00**.
-- Migration completed at **08:10**.
-- **99.83%** of records were successfully loaded.
-- API availability was **99.98%**.
-- No critical UI or compliance incidents were reported.
-- Four support tickets were recorded.
-- The pilot remained active for the planned two-week observation period.
-
-## Project Owners
-
-| Area | Owner |
-|---|---|
-| Project coordination | Asha |
-| Backend / API / SSO | Rahul |
-| Frontend | Meera |
-| Data migration | Neha |
-| Quality assurance | Karan |
-| Compliance | Priya |
-| Data corrections | Data Governance |
-
-## Conclusion
-
-The NovaCRM project successfully progressed from requirements and development through testing and pilot launch. The project is currently active in its observation phase, with functional metrics and the final pilot quality report remaining as the major documented follow-up activities.
+- The dataset contains fictional/synthetic project information.
+- No real confidential project information is used.
+- NotebookLM responses were checked against the source meeting transcripts.
+- The project uses NotebookLM as an AI-assisted retrieval and Q&A tool; it does not claim to train a new AI model.
+- AI responses may include extra context when a meeting contains multiple actions, so meeting IDs and structured prompts were used to improve verification.
