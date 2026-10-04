@@ -1,0 +1,230 @@
+﻿meeting_id,date,project,word_count,transcript
+MTG001,2025-04-01,Campus hiring drive,179,"Meeting: Campus hiring drive - weekly sync #1
+Attendees: Karan Pawar, Kabir Jadhav, Varun Singh, Madhuri Sharma (chair: Karan Pawar)
+
+Karan Pawar: Let's start. Main agenda today is the Campus hiring drive: progress, budget and risks.
+Kabir Jadhav: Finance wants a revised cost estimate before approving the next tranche.
+Varun Singh: Training material is ready in English; the Marathi and Hindi versions are pending.
+Madhuri Sharma: The leadership review is scheduled for the 15th.
+Karan Pawar: Madhuri, can you draft the note to leadership by end of the week?
+Madhuri Sharma: Yes, I'll do that.
+Kabir Jadhav: Customer feedback from the pilot was mostly positive; 4 issues were logged.
+Varun Singh: The biggest risk right now is IT bandwidth.
+Madhuri Sharma: We are 5 days behind on testing because the vendor delayed samples.
+Karan Pawar: Madhuri, can you share the revised plan by end of the week?
+Madhuri Sharma: Yes, I'll do that.
+Kabir Jadhav: Legal has not yet signed off the contract changes.
+Karan Pawar: Decision: we go with option A and review again next week. Thanks everyone."
+MTG002,2025-04-08,Q3 sales review,130,"Meeting: Q3 sales review - weekly sync #2
+Attendees: Suresh D'Souza, Varun Rao, Siddharth Kaur, Omkar Reddy (chair: Suresh D'Souza)
+
+Suresh D'Souza: Let's start. Main agenda today is the Q3 sales review: progress, budget and risks.
+Varun Rao: The leadership review is scheduled for the 15th.
+Suresh D'Souza: Varun, can you draft the note to leadership by Wednesday?
+Varun Rao: Yes, I'll do that.
+Siddharth Kaur: Legal has not yet signed off the contract changes.
+Omkar Reddy: Quick update: the design phase is 81% complete.
+Varun Rao: Budget is at 90% utilisation; we may need an extra Rs 6 lakh.
+Siddharth Kaur: Training material is ready in English; the Marathi and Hindi versions are pending.
+Suresh D'Souza: Decision: we go with option A and review again next week. Thanks everyone."
+MTG003,2025-04-15,Vendor consolidation,174,"Meeting: Vendor consolidation - weekly sync #3
+Attendees: Varun Pillai, Rajesh Agarwal, Harleen Banerjee, Gauri Rao (chair: Varun Pillai)
+
+Varun Pillai: Let's start. Main agenda today is the Vendor consolidation: progress, budget and risks.
+Rajesh Agarwal: Two vendors have quoted; option A is 10% cheaper but slower to deliver.
+Varun Pillai: Rajesh, can you call the vendor by end of the week?
+Rajesh Agarwal: Yes, I'll do that.
+Harleen Banerjee: We are 3 days behind on design because the vendor delayed samples.
+Varun Pillai: Harleen, can you update the tracker by Friday?
+Harleen Banerjee: Yes, I'll do that.
+Gauri Rao: Finance wants a revised cost estimate before approving the next tranche.
+Varun Pillai: Rajesh, can you call the vendor by end of the week?
+Rajesh Agarwal: Yes, I'll do that.
+Rajesh Agarwal: Training material is ready in English; the Marathi and Hindi versions are pending.
+Harleen Banerjee: Customer feedback from the pilot was mostly positive; 7 issues were logged.
+Varun Pillai: Decision: we go with option A and review again next week. Thanks everyone."
+MTG004,2025-04-22,Campus hiring drive,149,"Meeting: Campus hiring drive - weekly sync #4
+Attendees: Fatima Menon, Diya Shah, Pranav Agarwal, Harleen Shah (chair: Fatima Menon)
+
+Fatima Menon: Let's start. Main agenda today is the Campus hiring drive: progress, budget and risks.
+Diya Shah: Two vendors have quoted; option A is 18% cheaper but slower to deliver.
+Pranav Agarwal: The leadership review is scheduled for end of the month.
+Harleen Shah: Quick update: the go-live phase is 64% complete.
+Diya Shah: Training material is ready in English; the Marathi and Hindi versions are pending.
+Fatima Menon: Diya, can you get finance approval by Wednesday?
+Diya Shah: Yes, I'll do that.
+Pranav Agarwal: Customer feedback from the pilot was mostly positive; 6 issues were logged.
+Fatima Menon: Harleen, can you update the tracker by Monday?
+Harleen Shah: Yes, I'll do that.
+Fatima Menon: Decision: we go with option A and review again next week. Thanks everyone."
+MTG005,2025-04-29,Vendor consolidation,129,"Meeting: Vendor consolidation - weekly sync #5
+Attendees: Pallavi Iyer, Simran Das, Anjali Khan, Imran Das (chair: Pallavi Iyer)
+
+Pallavi Iyer: Let's start. Main agenda today is the Vendor consolidation: progress, budget and risks.
+Simran Das: Two vendors have quoted; option A is 8% cheaper but slower to deliver.
+Anjali Khan: Quick update: the testing phase is 51% complete.
+Imran Das: The leadership review is scheduled for the 15th.
+Simran Das: Training material is ready in English; the Marathi and Hindi versions are pending.
+Pallavi Iyer: Anjali, can you get finance approval by Monday?
+Anjali Khan: Yes, I'll do that.
+Anjali Khan: We are 7 days behind on testing because the vendor delayed samples.
+Pallavi Iyer: Decision: we go with option A and review again next week. Thanks everyone."
+MTG006,2025-05-06,CRM migration,144,"Meeting: CRM migration - weekly sync #6
+Attendees: Suresh Shinde, Harleen Mukherjee, Divya Khan, Simran Menon (chair: Suresh Shinde)
+
+Suresh Shinde: Let's start. Main agenda today is the CRM migration: progress, budget and risks.
+Harleen Mukherjee: Legal has not yet signed off the contract changes.
+Divya Khan: Two vendors have quoted; option A is 15% cheaper but slower to deliver.
+Simran Menon: Finance wants a revised cost estimate before approving the next tranche.
+Suresh Shinde: Simran, can you call the vendor by Wednesday?
+Simran Menon: Yes, I'll do that.
+Harleen Mukherjee: The biggest risk right now is attrition in the team.
+Divya Khan: The leadership review is scheduled for end of the month.
+Suresh Shinde: Divya, can you get finance approval by Friday?
+Divya Khan: Yes, I'll do that.
+Suresh Shinde: Decision: we go with option B and review again next week. Thanks everyone."
+MTG007,2025-05-13,CRM migration,212,"Meeting: CRM migration - weekly sync #7
+Attendees: Gurpreet Banerjee, Manish Jadhav, Nikhil Mishra, Siddharth Patil (chair: Gurpreet Banerjee)
+
+Gurpreet Banerjee: Let's start. Main agenda today is the CRM migration: progress, budget and risks.
+Manish Jadhav: Budget is at 65% utilisation; we may need an extra Rs 12 lakh.
+Nikhil Mishra: Finance wants a revised cost estimate before approving the next tranche.
+Gurpreet Banerjee: Nikhil, can you fix the training schedule by Friday?
+Nikhil Mishra: Yes, I'll do that.
+Siddharth Patil: Legal has not yet signed off the contract changes.
+Gurpreet Banerjee: Nikhil, can you call the vendor by end of the week?
+Nikhil Mishra: Yes, I'll do that.
+Manish Jadhav: Training material is ready in English; the Marathi and Hindi versions are pending.
+Nikhil Mishra: The leadership review is scheduled for the 15th.
+Gurpreet Banerjee: Manish, can you call the vendor by end of the week?
+Manish Jadhav: Yes, I'll do that.
+Siddharth Patil: The biggest risk right now is the festive demand spike.
+Manish Jadhav: Customer feedback from the pilot was mostly positive; 6 issues were logged.
+Gurpreet Banerjee: Siddharth, can you draft the note to leadership by Friday?
+Siddharth Patil: Yes, I'll do that.
+Gurpreet Banerjee: Decision: we go with option A and review again next week. Thanks everyone."
+MTG008,2025-05-20,Q3 sales review,178,"Meeting: Q3 sales review - weekly sync #8
+Attendees: Gurpreet Verma, Gauri Pillai, Fatima Mukherjee, Joseph Mukherjee (chair: Gurpreet Verma)
+
+Gurpreet Verma: Let's start. Main agenda today is the Q3 sales review: progress, budget and risks.
+Gauri Pillai: Legal has not yet signed off the contract changes.
+Fatima Mukherjee: The biggest risk right now is attrition in the team.
+Joseph Mukherjee: Finance wants a revised cost estimate before approving the next tranche.
+Gauri Pillai: Customer feedback from the pilot was mostly positive; 3 issues were logged.
+Gurpreet Verma: Joseph, can you get finance approval by end of the week?
+Joseph Mukherjee: Yes, I'll do that.
+Fatima Mukherjee: Quick update: the training phase is 68% complete.
+Gurpreet Verma: Fatima, can you fix the training schedule by Wednesday?
+Fatima Mukherjee: Yes, I'll do that.
+Joseph Mukherjee: Two vendors have quoted; option A is 12% cheaper but slower to deliver.
+Gurpreet Verma: Joseph, can you get finance approval by Friday?
+Joseph Mukherjee: Yes, I'll do that.
+Gurpreet Verma: Decision: we go with option B and review again next week. Thanks everyone."
+MTG009,2025-05-27,New warehouse in Nagpur,187,"Meeting: New warehouse in Nagpur - weekly sync #9
+Attendees: Nisha Khan, Vikram Pawar, Harleen Sharma, Mary Jadhav (chair: Nisha Khan)
+
+Nisha Khan: Let's start. Main agenda today is the New warehouse in Nagpur: progress, budget and risks.
+Vikram Pawar: Customer feedback from the pilot was mostly positive; 6 issues were logged.
+Harleen Sharma: Legal has not yet signed off the contract changes.
+Nisha Khan: Vikram, can you share the revised plan by Friday?
+Vikram Pawar: Yes, I'll do that.
+Mary Jadhav: Training material is ready in English; the Marathi and Hindi versions are pending.
+Nisha Khan: Harleen, can you draft the note to leadership by end of the week?
+Harleen Sharma: Yes, I'll do that.
+Vikram Pawar: The biggest risk right now is attrition in the team.
+Nisha Khan: Vikram, can you fix the training schedule by Friday?
+Vikram Pawar: Yes, I'll do that.
+Harleen Sharma: Quick update: the pilot phase is 53% complete.
+Nisha Khan: Vikram, can you fix the training schedule by Monday?
+Vikram Pawar: Yes, I'll do that.
+Nisha Khan: Decision: we go with option A and review again next week. Thanks everyone."
+MTG010,2025-06-03,CRM migration,199,"Meeting: CRM migration - weekly sync #10
+Attendees: Harpreet D'Souza, Diya Desai, Aisha Singh, Anjali Reddy (chair: Harpreet D'Souza)
+
+Harpreet D'Souza: Let's start. Main agenda today is the CRM migration: progress, budget and risks.
+Diya Desai: Customer feedback from the pilot was mostly positive; 5 issues were logged.
+Aisha Singh: The biggest risk right now is regulatory approval.
+Harpreet D'Souza: Aisha, can you get finance approval by Friday?
+Aisha Singh: Yes, I'll do that.
+Anjali Reddy: Quick update: the testing phase is 74% complete.
+Harpreet D'Souza: Diya, can you get finance approval by Friday?
+Diya Desai: Yes, I'll do that.
+Diya Desai: Training material is ready in English; the Marathi and Hindi versions are pending.
+Aisha Singh: Finance wants a revised cost estimate before approving the next tranche.
+Harpreet D'Souza: Anjali, can you call the vendor by Wednesday?
+Anjali Reddy: Yes, I'll do that.
+Anjali Reddy: The leadership review is scheduled for next Monday.
+Harpreet D'Souza: Diya, can you call the vendor by Friday?
+Diya Desai: Yes, I'll do that.
+Diya Desai: We are 5 days behind on testing because the vendor delayed samples.
+Harpreet D'Souza: Decision: we go with option A and review again next week. Thanks everyone."
+MTG011,2025-06-10,Campus hiring drive,137,"Meeting: Campus hiring drive - weekly sync #11
+Attendees: Varun Agarwal, Deepak Desai, Diya Agarwal, Pallavi Verma (chair: Varun Agarwal)
+
+Varun Agarwal: Let's start. Main agenda today is the Campus hiring drive: progress, budget and risks.
+Deepak Desai: Customer feedback from the pilot was mostly positive; 3 issues were logged.
+Diya Agarwal: The leadership review is scheduled for the 15th.
+Varun Agarwal: Diya, can you get finance approval by end of the week?
+Diya Agarwal: Yes, I'll do that.
+Pallavi Verma: Training material is ready in English; the Marathi and Hindi versions are pending.
+Deepak Desai: Finance wants a revised cost estimate before approving the next tranche.
+Diya Agarwal: Two vendors have quoted; option A is 15% cheaper but slower to deliver.
+Varun Agarwal: Decision: we go with option B and review again next week. Thanks everyone."
+MTG012,2025-06-17,CRM migration,144,"Meeting: CRM migration - weekly sync #12
+Attendees: Zoya Kaur, Madhuri Rao, Ishaan Joshi, Joseph Agarwal (chair: Zoya Kaur)
+
+Zoya Kaur: Let's start. Main agenda today is the CRM migration: progress, budget and risks.
+Madhuri Rao: Budget is at 92% utilisation; we may need an extra Rs 7 lakh.
+Ishaan Joshi: Customer feedback from the pilot was mostly positive; 8 issues were logged.
+Joseph Agarwal: We are 5 days behind on training because the vendor delayed samples.
+Madhuri Rao: Legal has not yet signed off the contract changes.
+Ishaan Joshi: Finance wants a revised cost estimate before approving the next tranche.
+Joseph Agarwal: The leadership review is scheduled for end of the month.
+Zoya Kaur: Madhuri, can you update the tracker by Monday?
+Madhuri Rao: Yes, I'll do that.
+Zoya Kaur: Decision: we go with option A and review again next week. Thanks everyone."
+MTG013,2025-06-24,Vendor consolidation,166,"Meeting: Vendor consolidation - weekly sync #13
+Attendees: Divya Jadhav, Thomas Pillai, Joseph Mukherjee, Divya Mukherjee (chair: Divya Jadhav)
+
+Divya Jadhav: Let's start. Main agenda today is the Vendor consolidation: progress, budget and risks.
+Thomas Pillai: Legal has not yet signed off the contract changes.
+Joseph Mukherjee: Two vendors have quoted; option A is 7% cheaper but slower to deliver.
+Divya Jadhav: Joseph, can you get finance approval by Monday?
+Joseph Mukherjee: Yes, I'll do that.
+Divya Mukherjee: The biggest risk right now is regulatory approval.
+Divya Jadhav: Thomas, can you get finance approval by Monday?
+Thomas Pillai: Yes, I'll do that.
+Thomas Pillai: Finance wants a revised cost estimate before approving the next tranche.
+Joseph Mukherjee: The leadership review is scheduled for next Monday.
+Divya Jadhav: Divya, can you call the vendor by Friday?
+Divya Mukherjee: Yes, I'll do that.
+Divya Mukherjee: Quick update: the pilot phase is 71% complete.
+Divya Jadhav: Decision: we go with option B and review again next week. Thanks everyone."
+MTG014,2025-07-01,CRM migration,147,"Meeting: CRM migration - weekly sync #14
+Attendees: Varun Kulkarni, Harpreet Chatterjee, Gurpreet Shinde, Madhuri Pillai (chair: Varun Kulkarni)
+
+Varun Kulkarni: Let's start. Main agenda today is the CRM migration: progress, budget and risks.
+Harpreet Chatterjee: We are 6 days behind on go-live because the vendor delayed samples.
+Varun Kulkarni: Gurpreet, can you share the revised plan by Wednesday?
+Gurpreet Shinde: Yes, I'll do that.
+Gurpreet Shinde: Budget is at 94% utilisation; we may need an extra Rs 2 lakh.
+Varun Kulkarni: Harpreet, can you share the revised plan by Wednesday?
+Harpreet Chatterjee: Yes, I'll do that.
+Madhuri Pillai: Customer feedback from the pilot was mostly positive; 5 issues were logged.
+Harpreet Chatterjee: Legal has not yet signed off the contract changes.
+Gurpreet Shinde: The biggest risk right now is IT bandwidth.
+Varun Kulkarni: Decision: we go with option A and review again next week. Thanks everyone."
+MTG015,2025-07-08,New warehouse in Nagpur,153,"Meeting: New warehouse in Nagpur - weekly sync #15
+Attendees: Fatima Banerjee, Suresh Kaur, Zoya Verma, Diya Singh (chair: Fatima Banerjee)
+
+Fatima Banerjee: Let's start. Main agenda today is the New warehouse in Nagpur: progress, budget and risks.
+Suresh Kaur: Training material is ready in English; the Marathi and Hindi versions are pending.
+Zoya Verma: Customer feedback from the pilot was mostly positive; 7 issues were logged.
+Fatima Banerjee: Zoya, can you call the vendor by Friday?
+Zoya Verma: Yes, I'll do that.
+Diya Singh: The biggest risk right now is the festive demand spike.
+Fatima Banerjee: Diya, can you share the revised plan by Friday?
+Diya Singh: Yes, I'll do that.
+Suresh Kaur: Legal has not yet signed off the contract changes.
+Zoya Verma: Budget is at 96% utilisation; we may need an extra Rs 3 lakh.
+Fatima Banerjee: Decision: we go with option B and review again next week. Thanks everyone."
