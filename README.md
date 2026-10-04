@@ -2,9 +2,9 @@
 
 ## Project Overview
 
-The **NovaCRM Meeting-Notes Q&A Assistant** is an AI-assisted project management solution that uses meeting transcripts to answer questions about project owners, decisions, deadlines, risks, and project progress.
+The **NovaCRM Meeting-Notes Q&A Assistant** is an AI-assisted project management solution that uses meeting transcripts to answer questions about project owners, decisions, deadlines, risks, budgets, testing, training, and project progress.
 
-The project uses **Google NotebookLM** to analyze a dataset of 15 fictional NovaCRM project meeting transcripts and provide source-grounded answers.
+The project uses **Google NotebookLM** to analyze 15 fictional NovaCRM project meeting transcripts and provide source-grounded answers.
 
 ## Problem Statement
 
@@ -12,139 +12,155 @@ Project information is often distributed across multiple meeting notes, making i
 
 - Who is responsible for a task
 - Important project decisions
-- Deadlines and revised dates
-- Current and resolved risks
-- Migration and testing outcomes
-- Post-launch status
+- Deadlines and follow-up dates
+- Current project risks and issues
+- Budget and vendor-related concerns
+- Testing and implementation progress
+- Training and approval requirements
+- Final project status
 
-This project demonstrates how an AI-powered meeting-notes assistant can make this information easier to retrieve and verify.
+This project demonstrates how an AI-assisted meeting-notes system can make this information easier to retrieve, organize, and verify.
 
 ## Objectives
 
-1. Create a structured dataset of 15 project meeting transcripts.
+1. Create a structured dataset of 15 fictional project meeting transcripts.
 2. Load the transcripts into Google NotebookLM.
-3. Design 15 questions related to project management information.
-4. Verify NotebookLM's answers against the original meeting transcripts.
+3. Design and record AI-use questions related to project management information.
+4. Verify NotebookLM responses against the original meeting transcripts.
 5. Generate a consolidated project-status summary.
 6. Identify potential owner/date inconsistencies and determine whether they are genuine errors or documented changes.
 
 ## Dataset
 
-The dataset contains **15 fictional NovaCRM project meetings** covering the complete project lifecycle from kickoff to pilot launch.
+The dataset contains **15 fictional NovaCRM project meetings**, identified as **MTG001–MTG015**, covering April–July 2025.
 
-The meetings include topics such as:
+The meetings cover topics such as:
 
-- Project kickoff
-- Requirements and security
-- API contract freeze
-- SSO integration
-- Compliance
-- Data migration
-- Defect resolution
-- Regression testing
-- Launch readiness
-- Pilot launch
+- Campus hiring
+- CRM migration
+- Q3 sales reviews
+- Vendor consolidation
+- Budget utilization
+- Testing delays
+- Training progress
+- Finance approvals
+- Legal and regulatory risks
+- IT and implementation issues
+- Pilot feedback
+- Follow-up actions and deadlines
 
-The dataset is available in:
+The dataset is stored in:
 
 `data/meeting_transcripts.csv`
+
+## Tool Used
+
+**Google NotebookLM**
+
+NotebookLM was used as the AI-assisted question-answering and source-grounding tool.
+
+No separate machine-learning model was trained for this project.
 
 ## Methodology
 
 The project workflow was:
 
-15 Meeting Transcripts  
-↓  
-CSV Dataset  
-↓  
-Google NotebookLM  
-↓  
-15 Project Questions  
-↓  
-Answer Verification  
-↓  
-Project Status Summary  
-↓  
-Owner/Date Consistency Analysis
+**15 Meeting Transcripts → NotebookLM → AI-use Questions → Source Verification → Project Status Summary → Owner/Date Analysis**
 
-## AI Tool Used
+### Step 1 – Dataset Preparation
 
-**Google NotebookLM**
+A structured CSV containing 15 fictional meeting transcripts was prepared.
 
-NotebookLM was used as the AI-powered retrieval and question-answering tool. The meeting transcripts were provided as source material, and questions were asked about project owners, dates, decisions, risks, and outcomes.
+### Step 2 – AI Analysis
 
-This project does **not** involve training a new machine-learning model. It demonstrates the use of an existing AI tool for grounded information retrieval and project analysis.
+The meeting transcript dataset was uploaded to Google NotebookLM.
 
-## Evaluation
+Questions were asked about:
 
-A total of **15 questions** were evaluated.
-
-The questions covered:
-
-- Task ownership
+- Action-item owners
 - Deadlines
-- Security and masking
-- Compliance
-- Migration results
-- Defects
-- Testing
-- SSO certificates
-- Launch decisions
-- Launch-day activities
-- Pilot outcomes
+- Project decisions
+- Budget concerns
+- Vendor issues
+- Risks
+- Testing delays
+- Training progress
+- Approvals
+- Project status
 
-All 15 answers were verified against the meeting transcripts and were found to be correct.
+### Step 3 – Verification
 
-The detailed verification is available in:
+NotebookLM's responses were checked against the original meeting transcripts.
 
-`evaluation/T35_NotebookLM_QA_Verification.xlsx`
+The verified results are available in:
 
-## Owner and Date Analysis
+`evaluation/T35_T5_Meeting_Notes_QA_Final.xlsx`
 
-Potential owner/date inconsistencies were reviewed across the meeting transcripts.
+### Step 4 – Status Summary
 
-The analysis found **no genuine unresolved owner or date errors**. The identified differences were documented project changes, clarifications, or changes in task timing.
+A consolidated project-status summary was prepared from the meeting information.
 
-The detailed analysis is available in:
+It is available in:
 
-`evaluation/T35_Wrong_Owner_Date_Error_Log.xlsx`
+`documentation/Project_Status_Summary.md`
 
-## Project Status
+### Step 5 – Owner/Date Analysis
 
-The NovaCRM pilot was successfully launched on **30 September 2026** and entered a two-week observation phase.
+Potential owner and deadline inconsistencies were reviewed to determine whether they represented genuine AI errors or explicitly documented changes/parallel assignments.
 
-Key launch outcomes included:
+The analysis is available in:
 
-- Migration completed at 08:10.
-- 99.83% of records were successfully loaded.
-- API availability was 99.98%.
-- No critical UI or compliance incidents were reported.
-- Four support tickets were recorded.
-- The pilot remained active for the planned observation period.
+`evaluation/T35_Wrong_Owner_Date_Error_Log_NEW.xlsx`
 
-## Key Project Decisions
+## Key Findings
 
-Some major decisions captured from the meetings include:
+The meetings revealed several recurring project-management themes:
 
-- Server-side role-based masking was enforced.
-- CSV exports were included in masking controls.
-- The API contract was frozen.
-- Compliance sign-off was formally rescheduled.
-- Invalid migration records were handled through a quarantine strategy.
-- The project received a GO decision for the pilot launch.
-- A launch-day command center was established.
-- A two-week pilot observation period was planned.
+- Vendor delays affected testing and implementation timelines.
+- Budget utilization increased across the project.
+- Additional funding requirements were discussed.
+- Finance, legal, and regulatory approvals were important dependencies.
+- Training schedules and training materials required follow-up.
+- Testing delays were linked to vendor sample delays.
+- Project decisions were frequently reviewed in subsequent meetings.
+- Clear ownership and deadlines were important for project follow-up.
 
-## Repository Structure
+## Final Meeting – MTG015
+
+The final meeting reported:
+
+- The team selected **Option B** and planned to review again the following week.
+- Pilot feedback was mostly positive.
+- **7 issues were logged.**
+- English training material was ready, while Marathi and Hindi versions remained pending.
+- Budget utilization reached **96%**, with a potential requirement for an additional **Rs 3 lakh**.
+- Legal sign-off on contract changes remained pending.
+- The primary risk identified was an upcoming festive-demand spike.
+- Zoya Verma was assigned to call the vendor by Friday.
+- Diya Singh was assigned to share the revised plan by Friday.
+
+## Evaluation Result
+
+The AI-use interactions were verified against the source meeting transcripts.
+
+**Result: No confirmed wrong owner or wrong date was identified.**
+
+Where similar or repeated assignments appeared, they were treated according to the information explicitly stated in the relevant meeting transcript.
+
+## Project Files
 
 ```text
 NovaCRM-Meeting-Notes-QA-Assistant/
 │
-├── README.md
-│
 ├── data/
 │   └── meeting_transcripts.csv
 │
-└── evaluation/
-    ├── T35_NotebookLM_QA_Verification.xlsx
-    └── T35_Wrong_Owner_Date_Error_Log.xlsx
+├── documentation/
+│   ├── Project_Status_Summary.md
+│   └── T35_NovaCRM_Meeting_Notes_QA_Report.docx
+│
+├── evaluation/
+│   ├── T35_T5_Meeting_Notes_QA_Final.xlsx
+│   └── T35_Wrong_Owner_Date_Error_Log_NEW.xlsx
+│
+└── README.md
