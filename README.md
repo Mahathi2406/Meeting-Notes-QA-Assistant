@@ -1,10 +1,10 @@
-# NovaCRM Meeting-Notes Q&A Assistant
+# Meeting-Notes Q&A Assistant
 
 ## Project Overview
 
-The **NovaCRM Meeting-Notes Q&A Assistant** is an AI-assisted project management solution that uses meeting transcripts to answer questions about project owners, decisions, deadlines, risks, budgets, testing, training, and project progress.
+The **Meeting-Notes Q&A Assistant** is an AI-assisted project management solution that uses meeting transcripts to answer questions about project owners, decisions, deadlines, risks, budgets, testing, training, and project progress.
 
-The project uses **Google NotebookLM** to analyze 15 fictional NovaCRM project meeting transcripts and provide source-grounded answers.
+The project uses **Google NotebookLM** to analyze 15 fictional project meeting transcripts and provide source-grounded answers.
 
 ## Problem Statement
 
@@ -32,7 +32,7 @@ This project demonstrates how an AI-assisted meeting-notes system can make this 
 
 ## Dataset
 
-The dataset contains **15 fictional NovaCRM project meetings**, identified as **MTG001–MTG015**, covering April–July 2025.
+The dataset contains **15 fictional project meetings**, identified as **MTG001–MTG015**, covering April–July 2025.
 
 The meetings cover topics such as:
 
@@ -106,7 +106,7 @@ It is available in:
 
 ### Step 5 – Owner/Date Analysis
 
-Potential owner and deadline inconsistencies were reviewed to determine whether they represented genuine AI errors or explicitly documented changes/parallel assignments.
+Potential owner and deadline inconsistencies were reviewed to determine whether they represented genuine AI errors or explicitly documented changes or parallel assignments.
 
 The analysis is available in:
 
@@ -117,7 +117,7 @@ The analysis is available in:
 The meetings revealed several recurring project-management themes:
 
 - Vendor delays affected testing and implementation timelines.
-- Budget utilization increased across the project.
+- Budget utilization increased across the meetings.
 - Additional funding requirements were discussed.
 - Finance, legal, and regulatory approvals were important dependencies.
 - Training schedules and training materials required follow-up.
@@ -145,12 +145,12 @@ The AI-use interactions were verified against the source meeting transcripts.
 
 **Result: No confirmed wrong owner or wrong date was identified.**
 
-Where similar or repeated assignments appeared, they were treated according to the information explicitly stated in the relevant meeting transcript.
+Where similar or repeated assignments appeared, they were evaluated according to the information explicitly stated in the relevant meeting transcript.
 
 ## Project Files
 
 ```text
-NovaCRM-Meeting-Notes-QA-Assistant/
+Meeting-Notes-QA-Assistant/
 │
 ├── data/
 │   └── meeting_transcripts.csv
